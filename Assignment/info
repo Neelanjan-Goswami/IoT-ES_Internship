@@ -1,0 +1,710 @@
+{
+  "uuid": "c5de2046a15bfb72984b037d6f737f0d",
+  "path": "Offline/Assignment",
+  "name": "Assignment",
+  "content": "Internship",
+  "created_at": "2020-12-04 12:36:04",
+  "updated_at": "2020-12-18 21:04:08",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "2048a2b3eadec15be88af2f758a6caeb",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "91fd2b09d4cc496597ed7e2e0c4a23ef": 1,
+        "2d84f40b475a41e9b357b31b303649f4": 1,
+        "5ae8166a97154d449693a4f45e38a8b6": 1,
+        "cc88d32f9fcf4d41887acc7a44c159f4": 10,
+        "6f77ddf34435437083f7d8236ea19602": 4,
+        "6b5a2d1816c94152bad04113bc6fd168": 4,
+        "59bfb563a09e464f89545f8cc1a9a8d2": 1,
+        "6319b48466d74aa49f1bbee3a3c75497": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "XFMR_TAP",
+          1,
+          "TRANSFORMER 2 TO 3",
+          "T2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "519754b904c24371b9268f1b6fea2933",
+            "uuid": "2d84f40b475a41e9b357b31b303649f4"
+          }
+        ],
+        [
+          "ESP32",
+          1,
+          "ESP32",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5f06c1caa8e34355b6704200424b3c95",
+            "uuid": "5ae8166a97154d449693a4f45e38a8b6"
+          }
+        ],
+        [
+          "TBC",
+          4,
+          "TO-220(TO-220-3)",
+          "Q1,Q5,Q4,Q2",
+          {
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "IR",
+            "BOM_Manufacturer Part": "IRF830PbF",
+            "BOM_Supplier Part": "C2573",
+            "puuid": "e11ceaa89f314274800b2770237db329",
+            "uuid": "6b5a2d1816c94152bad04113bc6fd168"
+          }
+        ],
+        [
+          "Relay",
+          4,
+          "RELAY-TH_5PIN_HT3F-12VDC-SHG",
+          "K1,K4,K3,K2",
+          {
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "HTV",
+            "BOM_Manufacturer Part": "RelayHT3F-12VDC-SHG",
+            "BOM_Supplier Part": "C22022",
+            "puuid": "e02093a9cccb4f298396485fe4630112",
+            "uuid": "6f77ddf34435437083f7d8236ea19602"
+          }
+        ],
+        [
+          "T90 RELAY",
+          1,
+          "RLY2",
+          "U14",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f834f519436a472490527e6e6793f5e6",
+            "uuid": "59bfb563a09e464f89545f8cc1a9a8d2"
+          }
+        ],
+        [
+          "RELAY",
+          1,
+          "RELAY-G5Q",
+          "U7",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0ae939904034ada845a159a86167745",
+            "uuid": "91fd2b09d4cc496597ed7e2e0c4a23ef"
+          }
+        ],
+        [
+          "Transformer 230-12V 1.5VA",
+          1,
+          "TRANSFORMER230 - 9V CODEE13-826",
+          "T1",
+          {
+            "BOM_Manufacturer": "PD2HPS",
+            "BOM_Manufacturer Part": "Tr 230-12V 1.5VA",
+            "BOM_Supplier": "My",
+            "BOM_Supplier Part": "HP 12-01",
+            "puuid": "3a735569f60744a69949a5012ef5f74d",
+            "uuid": "6319b48466d74aa49f1bbee3a3c75497"
+          }
+        ],
+        [
+          "OPTOCOUPLER",
+          10,
+          "SSR SOLID STATE RELAY 4 PIN SMD",
+          "U13,U11,U10,U9,U8,U6,U5,U4,U3,U12",
+          {
+            "BOM_Manufacturer Part": "G3VM OMron",
+            "puuid": "ffa596b186f94bbb8e91c5a3d45291bc",
+            "uuid": "cc88d32f9fcf4d41887acc7a44c159f4"
+          }
+        ]
+      ],
+      "updateTime": 1607883917,
+      "createTime": 1607066187,
+      "histories": [],
+      "created_at": "2020-12-04 12:46:27",
+      "updated_at": "2020-12-13 23:55:17"
+    },
+    {
+      "uuid": "e23041ab31fc12b4377737901a251652",
+      "title": "Sheet_2",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "838d440e680545f2b3d6abff34162801": 1,
+        "0304a93ed3004486a7acbd1384d6a86d": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
+        "b0248eb51e084227889f2cb84eab79c4": 21,
+        "f293841aa2ad4ec39e5a467716282e34": 1,
+        "a4eacdcb63554cb08b3b56477817ab57": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 1,
+        "5cbe824183374fac8e4c1ae848199ce3": 2,
+        "cf75efcd042f4230aeacd00d7d3e3870": 2,
+        "0052f80a85c54720b0f6925904e3585c": 4,
+        "92ff7330605b434e8714101fa809c00a": 2,
+        "1dc103a4a8b94a39b9329964d76af7d4": 1,
+        "9c137cad3889449a9afb4fec4b207897": 2,
+        "da85efb77378462aaaa3d5ff7db1c1dd": 4,
+        "ea60af0544404492a39bd6ee3c0da7ec": 1,
+        "90369582cd314940a0416887a4c91264": 2,
+        "9bfbb9d49e5448399bdcbef84f933d26": 1,
+        "151e459e6cf944f89001dca2a6deb72f": 1,
+        "88b7dfb9cbaf4ee0886d4b6498b1e3e5": 1,
+        "45a91b1eba3a4882a2338f26399a826f": 1,
+        "5c1036b53a4146e4841df4ed0a9de8f0": 3
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "XFMR_TAP",
+          1,
+          "TRANSFORMER 2 TO 3",
+          "T2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "519754b904c24371b9268f1b6fea2933",
+            "uuid": "2d84f40b475a41e9b357b31b303649f4"
+          }
+        ],
+        [
+          "ESP32",
+          1,
+          "ESP32",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "5f06c1caa8e34355b6704200424b3c95",
+            "uuid": "5ae8166a97154d449693a4f45e38a8b6"
+          }
+        ],
+        [
+          "TBC",
+          4,
+          "TO-220(TO-220-3)",
+          "Q1,Q5,Q4,Q2",
+          {
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "IR",
+            "BOM_Manufacturer Part": "IRF830PbF",
+            "BOM_Supplier Part": "C2573",
+            "puuid": "e11ceaa89f314274800b2770237db329",
+            "uuid": "6b5a2d1816c94152bad04113bc6fd168"
+          }
+        ],
+        [
+          "Relay",
+          4,
+          "RELAY-TH_5PIN_HT3F-12VDC-SHG",
+          "K1,K4,K3,K2",
+          {
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "HTV",
+            "BOM_Manufacturer Part": "RelayHT3F-12VDC-SHG",
+            "BOM_Supplier Part": "C22022",
+            "puuid": "e02093a9cccb4f298396485fe4630112",
+            "uuid": "6f77ddf34435437083f7d8236ea19602"
+          }
+        ],
+        [
+          "T90 RELAY",
+          1,
+          "RLY2",
+          "U14",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f834f519436a472490527e6e6793f5e6",
+            "uuid": "59bfb563a09e464f89545f8cc1a9a8d2"
+          }
+        ],
+        [
+          "RELAY",
+          1,
+          "RELAY-G5Q",
+          "U7",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "d0ae939904034ada845a159a86167745",
+            "uuid": "91fd2b09d4cc496597ed7e2e0c4a23ef"
+          }
+        ],
+        [
+          "Transformer 230-12V 1.5VA",
+          1,
+          "TRANSFORMER230 - 9V CODEE13-826",
+          "T1",
+          {
+            "BOM_Manufacturer": "PD2HPS",
+            "BOM_Manufacturer Part": "Tr 230-12V 1.5VA",
+            "BOM_Supplier": "My",
+            "BOM_Supplier Part": "HP 12-01",
+            "puuid": "3a735569f60744a69949a5012ef5f74d",
+            "uuid": "6319b48466d74aa49f1bbee3a3c75497"
+          }
+        ],
+        [
+          "OPTOCOUPLER",
+          10,
+          "SSR SOLID STATE RELAY 4 PIN SMD",
+          "U13,U11,U10,U9,U8,U6,U5,U4,U3,U12",
+          {
+            "BOM_Manufacturer Part": "G3VM OMron",
+            "puuid": "ffa596b186f94bbb8e91c5a3d45291bc",
+            "uuid": "cc88d32f9fcf4d41887acc7a44c159f4"
+          }
+        ],
+        [
+          "TBlock-3.5-6P",
+          1,
+          "TBLOCK-3.5-6P",
+          "P1",
+          {
+            "BOM_Manufacturer": "On-Shore Technology",
+            "BOM_Manufacturer Part": "OSTTE060104",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "Arrow",
+            "puuid": "04f624d9e5a94e93b349be9720115dfc",
+            "uuid": "1dc103a4a8b94a39b9329964d76af7d4"
+          }
+        ],
+        [
+          "K2-3.6×6.1_SMD",
+          3,
+          "KEY-SMD_2P-L6.2-W3.6-LS8.0",
+          "M,UP,DWN",
+          {
+            "BOM_Supplier Part": "C118141",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "K2-1107ST-A4SW-06",
+            "puuid": "daacbe2eec304950b61eef2efe596556",
+            "uuid": "5c1036b53a4146e4841df4ed0a9de8f0"
+          }
+        ],
+        [
+          "LED-0603_R",
+          2,
+          "LED0603_RED",
+          "LED1,LED2",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "16MHz",
+          1,
+          "CRISTAL_16MHZ",
+          "X1",
+          {
+            "BOM_Supplier Part": "2819276",
+            "BOM_Supplier": "Element14",
+            "BOM_Manufacturer": "TXC",
+            "BOM_Manufacturer Part": "9B-48.000MAAE-B",
+            "puuid": "233fc3efc5d2402ebfc290784e6bf1c5",
+            "uuid": "9bfbb9d49e5448399bdcbef84f933d26"
+          }
+        ],
+        [
+          "PC817",
+          2,
+          "DIL04",
+          "OK2,OK1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "619165e6f3044c988691f114363ebc90",
+            "uuid": "9c137cad3889449a9afb4fec4b207897"
+          }
+        ],
+        [
+          "1n",
+          1,
+          "C0603",
+          "C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "MC34063",
+          1,
+          "DIP-8_L9.8-W7.1-P2.54-LS8.8-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C283638",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "MC34063ACN",
+            "puuid": "70f6b5a33cd64f6e9e8daf2718581afa",
+            "uuid": "45a91b1eba3a4882a2338f26399a826f"
+          }
+        ],
+        [
+          "TBLOCK-X2",
+          4,
+          "TBLOCK-X2",
+          "TB1,TB6,TB5,TB3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8d1fa48fc58945fe94c19c512b105731",
+            "uuid": "0052f80a85c54720b0f6925904e3585c"
+          }
+        ],
+        [
+          "PARALLEL LCD DISPLAY 16X2",
+          1,
+          "PARALLEL LCD DISPLAY 16X2 [PCB LIB]",
+          "MOD1",
+          {
+            "BOM_Manufacturer": "SHIVRAM INDIA",
+            "BOM_Manufacturer Part": "16X2 LCD",
+            "BOM_Supplier": "SHIVRAM INDIA",
+            "BOM_Supplier Part": "16X2 LCD",
+            "puuid": "b69605c74a414e3e8fa6ba96a93cc99a",
+            "uuid": "88b7dfb9cbaf4ee0886d4b6498b1e3e5"
+          }
+        ],
+        [
+          "TBLOCK-X3",
+          2,
+          "TBLOCK-X3",
+          "TB7,TB4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "0c9e48707f7c40268955b5a4f2aff6a9",
+            "uuid": "92ff7330605b434e8714101fa809c00a"
+          }
+        ],
+        [
+          "ATMEGA8",
+          1,
+          "TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL",
+          "U17",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "ATMEGA8L-8AU",
+            "BOM_Supplier Part": "C9755",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "9c6dab9dc91e4b929269cb3454d6d713",
+            "uuid": "151e459e6cf944f89001dca2a6deb72f"
+          }
+        ],
+        [
+          "CONN-SIL4",
+          1,
+          "CONN-SIL4",
+          "J1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "72fdde1c0f4d4e7e9e9db5a1e9039453",
+            "uuid": "0304a93ed3004486a7acbd1384d6a86d"
+          }
+        ],
+        [
+          "RV",
+          1,
+          "3296W",
+          "U15",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "undefined",
+            "BOM_Supplier": "",
+            "puuid": "d1994e004ea3475a9699cde285305ea6",
+            "uuid": "838d440e680545f2b3d6abff34162801"
+          }
+        ],
+        [
+          "BC547",
+          2,
+          "TO92",
+          "T4,T3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "e9a1bd8636524b969f59d028c571bf2f",
+            "uuid": "90369582cd314940a0416887a4c91264"
+          }
+        ],
+        [
+          "1mH",
+          1,
+          "L0603",
+          "L1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "c97065da658549e98f95ac59a402a593",
+            "uuid": "a4eacdcb63554cb08b3b56477817ab57"
+          }
+        ],
+        [
+          "4k7",
+          1,
+          "R0603",
+          "R17",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "1k",
+          7,
+          "R0603",
+          "R5,R6,R8,R9,R15,R4,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10k",
+          9,
+          "R0603",
+          "R12,R21,R20,R10,R13,R14,R11,R19,R18",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "1R",
+          1,
+          "R0603",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R0603",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "680R",
+          1,
+          "R0603",
+          "R16",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "3K3",
+          1,
+          "R0603",
+          "R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "b0248eb51e084227889f2cb84eab79c4"
+          }
+        ],
+        [
+          "G5CLE-14-DC12",
+          2,
+          "RELAY-TH_5P-L19.2-W15.5-P12.00",
+          "K5,K7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C467023",
+            "BOM_Manufacturer": "Zhejiang Fanhar",
+            "BOM_Manufacturer Part": "W14-1CST-DC12V/10A",
+            "puuid": "3dc0b23b69c84b30a7aaf35a1063cc6e",
+            "uuid": "cf75efcd042f4230aeacd00d7d3e3870"
+          }
+        ],
+        [
+          "1N4007",
+          4,
+          "DO-41_BD2.4-L4.7-P8.70-D0.9-RD",
+          "D4,D6,D2,D7",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "SEMTECH",
+            "BOM_Manufacturer Part": "1N4007",
+            "BOM_Supplier Part": "C106903",
+            "puuid": "c2803222ad4b48fb94db0de548a6280a",
+            "uuid": "da85efb77378462aaaa3d5ff7db1c1dd"
+          }
+        ],
+        [
+          "BD139",
+          1,
+          "TO-126_L7.5-W2.5-P2.3-B",
+          "Q3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "BD139",
+            "BOM_Supplier Part": "C27866",
+            "puuid": "57681e29fa9c4be7992511f165f0a2bf",
+            "uuid": "ea60af0544404492a39bd6ee3c0da7ec"
+          }
+        ],
+        [
+          "1N5819",
+          1,
+          "DIODE",
+          "D1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "d9e554dcb23544c8a67c9a3acacd69c0",
+            "uuid": "f293841aa2ad4ec39e5a467716282e34"
+          }
+        ],
+        [
+          "33p",
+          2,
+          "C0603",
+          "C3,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "0.1u",
+          1,
+          "C0603",
+          "C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "470u",
+          1,
+          "C0603",
+          "C1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ]
+      ],
+      "updateTime": 1608305648,
+      "createTime": 1608207918,
+      "histories": [],
+      "created_at": "2020-12-17 17:55:18",
+      "updated_at": "2020-12-18 21:04:08"
+    },
+    {
+      "uuid": "eaee3872438835b89122ebabd6c2ac8f",
+      "puuid": "c5de2046a15bfb72984b037d6f737f0d",
+      "title": "PCB_2020-12-04_13-22-21",
+      "filename": "PCB_2020-12-04_13-22-21.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e11ceaa89f314274800b2770237db329": 4,
+        "f834f519436a472490527e6e6793f5e6": 1,
+        "3a735569f60744a69949a5012ef5f74d": 1,
+        "e02093a9cccb4f298396485fe4630112": 4,
+        "ffa596b186f94bbb8e91c5a3d45291bc": 10,
+        "5f06c1caa8e34355b6704200424b3c95": 1,
+        "519754b904c24371b9268f1b6fea2933": 1,
+        "d0ae939904034ada845a159a86167745": 1
+      },
+      "BOM": [],
+      "updateTime": 1607883670,
+      "createTime": 1607068341,
+      "histories": [],
+      "created_at": "2020-12-04 13:22:21",
+      "updated_at": "2020-12-13 23:51:10"
+    }
+  ],
+  "sort": [
+    "2048a2b3eadec15be88af2f758a6caeb",
+    "e23041ab31fc12b4377737901a251652"
+  ],
+  "title": "Assignment",
+  "foldername": "Assignment",
+  "schfilename": "Assignment.json",
+  "schfilemtime": 1608305648277
+}
